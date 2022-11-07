@@ -1,0 +1,38 @@
+outer html: <span class="Ydwa1P5GkCggtLlSvphs">184,229 monthly listeners</span>
+inner html: 184,229 monthly listeners
+
+Homepage Layout
+
+A.) Intro
+B.) Follower slider/follower manual input (less than, greater than, equal to)
+	-Simple directions above it.
+C.) Submit button that shows result
+D.) A button
+
+
+
+B.) Follower input
+	Either use the slider.
+	Or manually input the follower number.
+	
+	Start off with putting in the inputs, one below the other.
+	Less than, equal than (with warning when selected), then greater than buttons
+	Slider input.
+	Then a textbox input.
+	
+
+
+Checkbox
+	Text
+	Slider
+	Buttons
+	Value
+	Submit
+	
+Next:
+	Assign radio buttons functions
+	Use console log to see if they work
+	
+	Get IDs of elements for vars XXX
+	When a button is selected, it will pick a random number <=> the value of the slider (output.innerHTML in sliderOutput.js)
+		Ex: If < and 500,000 are picked, then console.log gives 45,000 or 55, so on and so on.

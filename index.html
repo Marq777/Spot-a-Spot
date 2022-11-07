@@ -1,0 +1,32 @@
+<!--Spot-a-Spot Homepage-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Spot-a-Spot</title>
+        <link rel="stylesheet" type="text/css" href="styles.css"> <!--css file--><!--local-->
+    </head>
+    <body>
+        <header> <!--Intro to the website-->
+            <h1>Welcome to Spot-a-Spot</h1>
+            <h2>A place to find the music you never knew you wanted.</h2>
+            <h2>From the biggest idols to the underground garage bands</h2>
+        </header>
+        <div class="comparisonSelector"> <!--Less than, equal to, greater than, selector-->
+            <input type="radio" id="lessThan" name="comp_button" value="1_lessThan"> <!--Less than-->
+            <label for="lessThan">Less than</label>
+            <input type="radio" id="equalTo" name="comp_button" value="2_equalTo"> <!--Equal to (comes with warning)-->
+            <label for="equalTo">Equal to</label>
+            <input type="radio" id="greaterThan" name="comp_button" value="3_greaterThan"> <!--Greater than-->
+            <label for="greaterThan">Greater than</label>
+        </div>
+        <div class="sliderContainer"> <!--Slider input-->
+            <input type="range" min="1000" max="10000000" value="5000000" class="slider" id="myRange">
+            <p>Value: <span id="monthlyListenerNumber"></span></p>
+        </div>
+        <div class="submitButton">
+            <input type="submit" id="findNewMusic" value="Find New Music">
+        </div>
+    <script src="sliderOutput.js"></script> <!--Slider for the website-->
+    <script src="comparisonChecker.js"></script> <!--Gives radio buttons in comparisonSelector div their functions-->
+    </body>
+</html>
